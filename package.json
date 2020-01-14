@@ -1,0 +1,20 @@
+{
+  "name": "search-wiki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "nodemon --exec electron . -e html,css"
+  },
+  "author": "Hardik Badola",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.8",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "electron-window-state": "^5.0.3",
+    "node-fetch": "^2.6.0"
+  }
+}

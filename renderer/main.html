@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <span class="header-text"> WikiSearch</span>
+    </header>
+    <div class="container-fluid">
+      <a href="javascript:void(0)" class="random-article">
+        Click for a random article
+      </a>
+      <div class="search-bar">
+        <input type="text" class="search-text" placeholder="Search..." />
+      </div>
+      <div class="search-results"></div>
+    </div>
+    <div class="detection"></div>
+    <script>
+      if (typeof module === 'object') {
+        window.module = module
+        module = undefined
+      }
+    </script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      require('./renderer.js')
+    </script>
+    <script>
+      if (window.module) module = window.module
+    </script>
+  </body>
+</html>
