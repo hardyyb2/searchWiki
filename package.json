@@ -10,7 +10,7 @@
   "author": "Hardik Badola",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^7.1.8",
+    "electron": "^7.2.4",
     "nodemon": "^2.0.2"
   },
   "dependencies": {
