@@ -15,6 +15,6 @@
   },
   "dependencies": {
     "electron-window-state": "^5.0.3",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   }
 }
